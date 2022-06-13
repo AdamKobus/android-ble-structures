@@ -11,3 +11,4 @@
 - Added BlePermission
 - Added BleProperty
 - Added WriteType
+- Added GattServiceType
