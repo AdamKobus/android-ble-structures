@@ -10,3 +10,4 @@
 - Added IntFormat
 - Added BlePermission
 - Added BleProperty
+- Added WriteType

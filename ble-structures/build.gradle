@@ -20,7 +20,7 @@ dependencies {
 
 ext {
     PUBLISH_GROUP_ID = "com.adamkobus"
-    PUBLISH_ARTIFACT_ID = "ble-structures"
+    PUBLISH_ARTIFACT_ID = "android-ble-structures"
 }
 
 apply from: "${rootProject.projectDir}/gradle/publishing-module.gradle"
