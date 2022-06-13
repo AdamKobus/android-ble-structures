@@ -7,3 +7,5 @@
 ### Changes
 
 - Added FloatFormat
+- Added IntFormat
+- Added BlePermission
