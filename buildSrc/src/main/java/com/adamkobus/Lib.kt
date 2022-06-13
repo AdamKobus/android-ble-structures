@@ -94,7 +94,7 @@ object Lib {
         /**
          * [Mockk Releases](https://github.com/mockk/mockk/releases)
          */
-        const val Mockk = "io.mockk:mockk:1.12.2"
+        const val Mockk = "io.mockk:mockk:1.12.4"
 
         const val CoroutinesTest = "org.jetbrains.kotlinx:kotlinx-coroutines-test:$KOTLIN_COROUTINES_VERSION"
     }
