@@ -4,8 +4,22 @@ import android.bluetooth.BluetoothGattCharacteristic
 import com.adamkobus.ble.structures.error.UnexpectedSdkValueException
 
 enum class FloatFormat(val sdkValue: Int) {
-    SIGNED_FLOAT(BluetoothGattCharacteristic.FORMAT_SFLOAT),
-    FLOAT(BluetoothGattCharacteristic.FORMAT_FLOAT);
+    /**
+     * 16-bit float
+     *
+     * @see [BluetoothGattCharacteristic.FORMAT_SFLOAT]
+     */
+    SFloat(BluetoothGattCharacteristic.FORMAT_SFLOAT),
+
+    /**
+     * 32-bit float
+     *
+     * @see [BluetoothGattCharacteristic.FORMAT_FLOAT]
+     */
+    Float(BluetoothGattCharacteristic.FORMAT_FLOAT);
+
+    override fun toString(): String =
+        "$name(sdkValue=$sdkValue)"
 
     companion object {
         fun fromSdkValue(value: Int): FloatFormat =
