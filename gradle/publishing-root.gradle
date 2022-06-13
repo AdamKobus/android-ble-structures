@@ -1,0 +1,18 @@
+rootProject.loadProperties("publishing.properties")
+
+rootProject.readParam("adamkobusSonatypeUsername", "")
+rootProject.readParam("adamkobusSonatypePassword", "")
+rootProject.readParam("adamkobusSonatypeStagingProfileId", "")
+
+nexusPublishing {
+    repositories {
+        sonatype {
+            nexusUrl.set(uri("https://s01.oss.sonatype.org/service/local/"))
+            snapshotRepositoryUrl.set(uri("https://s01.oss.sonatype.org/content/repositories/snapshots/"))
+            stagingProfileId = rootProject.adamkobusSonatypeStagingProfileId
+            username = rootProject.adamkobusSonatypeUsername
+            password = rootProject.adamkobusSonatypePassword
+            version = rootProject.PUBLISH_VERSION
+        }
+    }
+}

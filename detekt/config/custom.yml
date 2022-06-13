@@ -1,0 +1,27 @@
+naming:
+  FunctionNaming:
+    ignoreAnnotated:
+      - Composable
+
+style:
+  MaxLineLength:
+    maxLineLength: 130
+  UnusedPrivateMember:
+    active: true
+    allowedNames: '(_|ignored|expected|serialVersionUID|.*Preview)'
+  UnnecessaryAbstractClass:
+    active: true
+    ignoreAnnotated:
+      - 'Module'
+  ReturnCount:
+    active: true
+    max: 3
+    excludedFunctions: 'equals'
+    excludeLabeled: false
+    excludeReturnFromLambda: true
+    excludeGuardClauses: false
+
+complexity:
+  TooManyFunctions:
+    # It's very easy to run into function limit with Compose
+    active: false
