@@ -9,7 +9,7 @@ buildscript {
         ktlintPluginVersion = "10.3.0"
 
         // https://github.com/detekt/detekt/releases
-        detektPluginVersion = "1.20.0"
+        detektPluginVersion = "1.21.0"
 
         // https://github.com/ben-manes/gradle-versions-plugin/releases
         versionsPluginVersion = "0.42.0"
@@ -18,9 +18,9 @@ buildscript {
         publishPluginVersion = "1.1.0"
 
         // https://developer.android.com/studio/releases/gradle-plugin
-        androidBuildtoolsPluginVersion = "7.2.1"
+        androidBuildtoolsPluginVersion = "7.2.2"
 
-        kotlinGradlePlugin = "1.7.0"
+        kotlinGradlePlugin = "1.7.10"
     }
 
     repositories {
