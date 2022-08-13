@@ -4,7 +4,7 @@ object Lib {
     /**
      * [Jetpack Compose Releases](https://developer.android.com/jetpack/androidx/versions/all-channel)
      */
-    const val COMPOSE_VERSION = "1.2.0-alpha03"
+    const val COMPOSE_VERSION = "1.2.1"
 
     /**
      * [Kotlin Releases](https://kotlinlang.org/docs/releases.html#release-details)
@@ -14,12 +14,12 @@ object Lib {
     /**
      * [Accompanist Version](https://github.com/google/accompanist/releases)
      */
-    const val ACCOMPANIST_VERSION = "0.24.2-alpha"
+    const val ACCOMPANIST_VERSION = "0.25.1"
 
     /**
      * [Kotlint Coroutines Releases](https://github.com/Kotlin/kotlinx.coroutines/releases)
      */
-    const val KOTLIN_COROUTINES_VERSION = "1.6.2"
+    const val KOTLIN_COROUTINES_VERSION = "1.6.4"
 
     /**
      * [Hilt Releases](https://github.com/google/dagger/releases)
@@ -82,7 +82,7 @@ object Lib {
         /**
          * [Lifecycle Aware ViewModel Releases](https://github.com/AdamKobus/lifecycle-aware-viewmodel/releases)
          */
-        const val LifecycleAwareViewModel = "com.adamkobus:lifecycle-observer-viewmodel-ktx:1.0.1"
+        const val LifecycleAwareViewModel = "com.adamkobus:lifecycle-observer-viewmodel-ktx:1.0.2"
     }
 
     object Test {
@@ -94,7 +94,7 @@ object Lib {
         /**
          * [Mockk Releases](https://github.com/mockk/mockk/releases)
          */
-        const val Mockk = "io.mockk:mockk:1.12.4"
+        const val Mockk = "io.mockk:mockk:1.12.5"
 
         const val CoroutinesTest = "org.jetbrains.kotlinx:kotlinx-coroutines-test:$KOTLIN_COROUTINES_VERSION"
     }

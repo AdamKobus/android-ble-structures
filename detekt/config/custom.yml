@@ -5,7 +5,7 @@ naming:
 
 style:
   MaxLineLength:
-    maxLineLength: 130
+    maxLineLength: 140
   UnusedPrivateMember:
     active: true
     allowedNames: '(_|ignored|expected|serialVersionUID|.*Preview)'

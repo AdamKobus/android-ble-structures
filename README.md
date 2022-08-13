@@ -26,6 +26,6 @@ repositories {
 }
 
 dependencies {
-    implementation "com.adamkobus:android-ble-structures:0.0.6-SNAPSHOT"
+    implementation "com.adamkobus:android-ble-structures:0.0.7-SNAPSHOT"
 }
 ```
